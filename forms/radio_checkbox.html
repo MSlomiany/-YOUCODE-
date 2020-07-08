@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Radio, checkbox</title>
+    <meta name="description" content="Formularze - radio i checkbox">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div> <!--radio-->
+        <form>
+            <!--labele pozwalają na kliknięcie nazwy a nie radia-->
+            Wybierz swojego ulubionego wokalistę:
+            <br>
+            <label>
+                <input type="radio" name="favourite-animal" value="kitku-1" required> Kitku <br>
+            </label>
+            <label>
+                <input type="radio" name="favourite-animal" value="piesku-2"> Piesku <br>
+            </label>
+            <label>
+                <input type="radio" name="favourite-animal" value="jeżyku-3" disabled> Jeżyku <br>
+            </label>
+            <!--Przycisk do przesłania odpowiedzi-->
+            <button>Prześlij odpowiedzi</button>
+        </form>
+    </div>
+    <div> <!--checkbox-->
+        <form>
+            <!--labele pozwalają na kliknięcie nazwy a nie radia-->
+            Wybierz swojego ulubionego wokalistę:
+            <br>
+            <label>
+                <input type="checkbox" name="favourite-animal" value="kitku-1"> Kitku <br>
+            </label>
+            <label>
+                <input type="checkbox" name="favourite-animal" value="piesku-2"> Piesku <br>
+            </label>
+            <label>
+                <input type="checkbox" name="favourite-animal" value="jeżyku-3"> Jeżyku <br>
+            </label>
+            <!--Przycisk do przesłania odpowiedzi-->
+            <button>Prześlij odpowiedzi</button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Labels</title>
+    <meta name="description" content="Formularze - labele">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <form>
+        <!--tak, aby kliknięcie na opis przenosiło do uzupełnienia opisywanego pols-->
+        <!--stary sposób, rozbudowuje kod-->
+        <label for="surname">Nazwisko</label>
+        <input name="surname" placeholder="Nazwisko" id="surname">
+        <br>
+        <br>
+        <!--lepsza metoda-->
+        <label>
+            Nazwisko
+            <input name="surname" placeholder="Nazwisko">
+        </label>
+    </form>
+</body>
+
+</html>

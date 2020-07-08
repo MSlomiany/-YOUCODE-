@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tworzenie tabel</title>
+    <meta name="description" content="Opis zawartości">
+    <meta name="viewport" content="Width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!--początek tabeli-->
+    <table>
+        <!--opis tabeli-->
+        <caption>Przykładowa tebela z ludźmi</caption>
+        <!--table header-->
+        <thead>
+            <!--table row-->
+            <tr>
+                <!--header cells-->
+                <th>Numer</th>
+                <th>Imię</th>
+                <th>Nazwisko</th>
+                <th>Zwierzątko</th>
+            </tr>
+        </thead>
+        <!--table data-->
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Michał</td>
+                <td>Słomiany</td>
+                <td rowspan="2">Kitku</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Maria</td>
+                <td>Tracz</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Szymon</td>
+                <td colspan="2">Szul nie ma zwierzątka</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

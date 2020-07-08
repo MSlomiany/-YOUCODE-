@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Select</title>
+    <meta name="description" content="Formularze - select">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div>
+        <form>
+            <label>
+                Najfajniesze zwierzątko:
+                <select name="favourite-animal" required autofocus>
+                    <!--pusta opcja na początku-->
+                    <option></option>
+                    <option value="kitku" selected>Kitku Płaczku</option>
+                    <option value="piesku">Piesku Heheszku</option>
+                    <option value="jezyku" disabled>Jeżyku</option>
+                </select>
+            </label>
+            <br>
+            <button>Wyślij odpowiedź</button>
+        </form>
+    </div>
+    <br>
+    <br>
+    <div>
+        <form>
+            <label>
+                Najfajniesze zwierzątko:
+                <select name="favourite-animals" required autofocus multiple>
+                    <option value="kitku" selected>Kitku Płaczku</option>
+                    <option value="piesku">Piesku Heheszku</option>
+                    <option value="jezyku" disabled>Jeżyku</option>
+                </select>
+            </label>
+            <br>
+            <button>Wyślij odpowiedź</button>
+        </form>
+    </div>
+</body>
+
+</html>

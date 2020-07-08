@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Praca domowa</title>
+    <meta name="description" content="Pierwsza praca domowa z modułu HTML">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <h1 id="ID1">Pierwsza praca domowa z modułu HTML</h1>
+    <p>
+        Zadanie domowe z modułu dotyczącego HTML. Pasuje wykorzystać wszystkie poznane znaczniki. Lorem ipsum dolor sit
+        amet, consectetur adipiscing elit. Suspendisse eu mi viverra, fringilla neque vitae, imperdiet elit. Sed
+        faucibus sodales odio ac tincidunt. Mauris id leo rhoncus, vulputate orci sed, convallis tellus. Aenean
+        sollicitudin mattis sapien, a lacinia felis pulvinar sed. Sed consectetur egestas bibendum. Nunc ultricies,
+        justo vitae efficitur ornare, arcu nunc vehicula purus, a luctus tellus est et diam. Mauris a euismod risus,
+        vitae faucibus tortor. Morbi sed ante arcu. Aliquam erat volutpat.
+        <br>
+        Nie nowy akapit ale nowy wiersz.
+    </p>
+
+    <h2 id="ID2">Lista nienumerowana</h2>
+    Będzie to lista i jednocześnie spis treści. Szok.
+    <div>
+        <ul>
+            <li>Wstęp</li>
+            <li>Lista nienumerowana i spis treści</li>
+            <li>
+                Pozostałe nagłowki
+                <ol type="I">
+                    <li><a href="#ID3">Kolejny nagłówek tekstu</a></li>
+                    <li>Powyżej jest również użyty link do akapitu na tej stronie</li>
+                    <li>Obrazek</li>
+                </ol>
+            </li>
+            <li><a href="#ID6">Niespodzianka</a></li>
+            <li><a href="#ID7">Filmik i nagranie</a></li>
+        </ul>
+    </div>
+
+    <h2 id="ID3">Kolejny nagłówek tekstu</h2>
+    <p>
+        Fusce vel aliquam ligula. Donec consequat nulla et leo pretium venenatis. Suspendisse at turpis tristique est
+        egestas consectetur. Morbi vitae libero leo. Etiam sapien elit, sollicitudin eget pharetra sit amet,
+        pellentesque quis nisi. Maecenas quis augue ut leo mattis facilisis sit amet ut nulla. Orci varius natoque
+        penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur eget elementum nulla, eget commodo
+        ligula. Cras tempus nisi tincidunt pharetra ultricies. Nulla dictum libero pharetra tortor molestie, id egestas
+        sapien gravida. Praesent vitae dictum augue. Sed mollis ipsum vitae mauris molestie, sed malesuada mauris
+        iaculis. Etiam fringilla aliquet volutpat. In hac habitasse platea dictumst.
+    </p>
+    <h3 id="ID4">Tutaj wstawię sobie obrazek</h3>
+    <img src="/content/kitku.jpg" alt="Zdjęcie przedstawia słodkiego kitku" width="300" title="Test żeber">
+
+    <h2 id="ID5">W tym nagłówku pokażę jak pisać kod w HTML</h2>
+    <p>
+        W celu wstawienia <strong>pogrubionego tekstu</strong> należy użyć znacznika <em>&lt;strong&gt;tutaj wstawić
+            nasz teskt&lt;strong&gt;</em>. Żeby napisać znaczniki musiałem użyć e&nbsp;n&nbsp;c&nbsp;j&nbsp;i. Te
+        literki oddzieliłem encją o nazwie spacja niełamiąca się.
+    </p>
+
+    <h2 id="ID6">Niespodzianka</h2>
+    <p>
+        Chcesz wiedzieć kim jesteś? Kliknij przycisk poniżej!
+    </p>
+    <p>
+        <button onclick="alert('JESTEŚ FAJNYM CZŁOWIEKIEM')">Kliknij, nie bój się</button>
+    </p>
+
+    <h2 id="ID7">Ta nudna część z mediami</h2>
+    <p>
+        Najpierw wstawię video.
+    </p>
+    <p>
+        <video controls width="300" title="Film z robotem">
+            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+            Your browser doesn't support this media file format.
+        </video>
+    </p>
+    <p>
+        <audio controls title="Nieciekawe stockowe nagranie w formacie mp3">
+            <source src="https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3"
+                type="audio/mpeg">
+            Your browser doesn't support this media file format.
+        </audio>
+    </p>
+
+    <h2 id="ID8" title="tabelka z przykładowymi danymi">Tabelka niezwykle ciekawa</h2>
+    <div>
+        <table>
+            <caption>To jest przykładowa tabelka</caption>
+            <thead>
+                <tr>
+                    <th>Numer porządkowy</th>
+                    <th>Imię</th>
+                    <th>Nazwisko</th>
+                    <th>Miejscowość</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Michał</td>
+                    <td>Słomiany</td>
+                    <td rowspan="2">Hyżne</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Justyna</td>
+                    <td>Słomiana</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Cykorek</td>
+                    <td>Hyżne</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2 id="ID9">Najlepsza częśc strony</h2>
+    <div>
+        <iframe width="300" src="https://www.youtube.com/embed/muurR5-Je1o" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <p>
+        <a href="#ID1">To by było na tyle. Tutaj wrócisz na górę strony.</a>
+    </p>
+
+</body>
+
+</html>
