@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularze - praca domowa</title>
+    <meta name="description" content="Praca domowa z modułu formularze">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--rzeczy do chrome-->
+    <meta name="theme-color" content="#326ba8">
+    <link rel="icon" sizes="192x192" href="/content/favicon.png">
+</head>
+
+<body>
+    <div>
+        <h1>Formularz do wyboru najlepszego zwierzaczka</h1>
+        <p>
+            Jeżeli nie wybierzesz <strong>kitku</strong> jesteś do niczego.
+            <br>
+            Zaczynamy!
+        </p>
+    </div>
+    <div>
+        <form autocomplete="on">
+            <label>
+                Imię: <input type="text" placeholder="Imię" name="name" required autofocus>
+            </label><br>
+            <label>
+                Hasło: <input type="password" placeholder="hasło" name="password" required>
+            </label><br>
+            Który zwierzaczek jest najlepszy?<br>
+            <label>
+                <input type="radio" name="radio-animal" value="cat-1">Kitku
+            </label><br>
+            <label>
+                <input type="radio" name="radio-animal" value="dog-2">Piesku
+            </label><br>
+            <label>
+                <input type="radio" name="radio-animal" value="hedgehog-3">Jeżyku
+            </label><br>
+            Zaznacz najsłodsze zwierzaczki:<br>
+            <label>
+                <input type="checkbox" name="checkbox-animal" value="cat-1" autofocus>Kitku
+            </label><br>
+            <label>
+                <input type="checkbox" name="checkbox-animal" value="dog-2">Piesku
+            </label><br>
+            <label>
+                <input type="checkbox" name="checkbox-animal" value="hedgehog-3">Jeżyku
+            </label><br>
+            Wybierz najsłodszego zwierzaczka:<br>
+            <label>
+                Najfajniesze zwierzątko:
+                <select name="favourite-animal" required>
+                    <!--pusta opcja na początku-->
+                    <option value="kitku" selected>Kitku Płaczku</option>
+                    <option value="piesku">Piesku Heheszku</option>
+                    <option value="jezyku" disabled>Jeżyku</option>
+                </select>
+            </label><br>
+            Kiedy przygarniesz kotka?<br>
+            <label>
+                Data: <input type="date" name="date">
+            </label><br>
+            <label>
+                Data: <input type="time" name="time">
+            </label><br>
+            <button type="reset">RESET</button>
+            <button type="submit">WYŚLIJ</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
