@@ -1,3 +1,8 @@
+ # atrybuty forms
+ - <form novalidate> - wyłącza walidację przeglądarki np. <required>
+ - <form method="POST,GET"> - metoda przesyłania rządania
+ - <form autocomplete="on/off"> - wlącza/wyłącza autocomplete dla całego formularza
+ 
  # atrybuty input
  - <name> - nazwa pola
  - <value> - domyślna wartość wpisana w pole
