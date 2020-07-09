@@ -1,3 +1,9 @@
-* {
-    color: slategray;
+div {
+    height: 200px;
+    background-color: royalblue;
+    background-image: url(/content/kitku.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
 }
