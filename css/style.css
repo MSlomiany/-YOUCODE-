@@ -1,9 +1,12 @@
 div {
+    border: 20px royalblue dotted;
+    padding: 20px;
     height: 200px;
+    overflow: auto;
     background-color: royalblue;
     background-image: url(/content/kitku.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    overflow: auto;
+    background-attachment: scroll;
+    background-origin: content-box;
 }
