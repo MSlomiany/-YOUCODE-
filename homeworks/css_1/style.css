@@ -1,0 +1,15 @@
+div{
+    margin: 20px;
+    outline: 5px red solid;
+    border: white 5px solid;
+    border-style: solid;
+    padding: 20px;
+    background: grey;
+    background-clip: border-box;
+    color: white;
+}
+img{
+    margin: 0 auto;
+    border: white solid 20px;
+    box-shadow: grey 10px 10px 10px 10px;
+}
