@@ -1,15 +1,29 @@
-div{
+section#text {
     margin: 20px;
     outline: 5px red solid;
     border: white 5px solid;
     border-style: solid;
     padding: 20px;
-    background: grey;
+    background: #555555;
     background-clip: border-box;
     color: white;
 }
-img{
-    margin: 0 auto;
-    border: white solid 20px;
+
+section#image {
+    margin: 30px auto;
+    border: #f3e6e6 solid 20px;
     box-shadow: grey 10px 10px 10px 10px;
+    width: fit-content;
+    height: fit-content;
+}
+
+section#images {
+    margin: 50px auto;
+    width: 300px;
+    height: 300px;
+    border: sienna solid 20px;
+    border-radius: 300px;
+    background-image: url(/content/kitku.jpg);
+    background-size: 80px;
+    background-repeat: space;
 }

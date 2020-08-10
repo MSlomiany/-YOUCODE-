@@ -1,0 +1,31 @@
+div {
+    font-family: 'Playfair Display', serif;
+    /*
+    nazwy czcionek warto pisać w nawiasach "..."
+    nazwy rodzin fontów niekoniecznie
+    */
+    font-style: italic;
+    font-size: 2vw;
+    font-weight: normal;
+    /*
+    często używane: bold, normal
+    */
+    line-height: 150%;
+    /*
+    wszystko można zamknąć w ten sposób:
+    font: bold italic 20px/1.5 'Playfair Display', serif;
+    */
+    text-align: justify;
+    margin: auto;
+    width: 500px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-indent: 50px;
+    text-shadow: 2px 2px 5px gray;
+    /*
+    operator ...em mnoży ... razy wielkośc czcionki wcześniej zdefiniowaną
+    operator ...rem mnoży razy wielkość podaną w znaczniku html{}
+    operator vw odnosi się do viewportu - 1 vw to 1% szerokości viewportu
+    vmin i vmax będzie skalował czcionkę względem mniejszego wymiaru - szerokości lub wysokości
+    */
+}
