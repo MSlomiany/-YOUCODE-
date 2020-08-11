@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+}
+
+td {
+    border: 2px solid darkslategray;
+    font-family: 'Playfair Display', serif;
+    width: 60px;
+    height: 2em;
+    vertical-align: middle;
+    text-align: center;
+}

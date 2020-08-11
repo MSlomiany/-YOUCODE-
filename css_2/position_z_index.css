@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    position: relative;
+    background: #dddddd;
+    margin: 0;
+}
+
+p{
+    border: 2px solid black;
+    background: #cccccc;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    z-index: 4;
+}
+
+p#absolute {
+    position: absolute;
+    background: #eeeeee;
+    top: 50px;
+    left: 0;
+    margin: 0;
+    z-index: 5;
+    opacity: 0.5;
+}
+
+/*Stałe względem viewportu*/
+
+p#fixed {
+    background: #e6a0f8;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+}
+
+/*do najbliższego elementu ze scrollbarem*/
+
+p#sticky {
+    background: #7dbbdf;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    visibility: hidden;
+}
