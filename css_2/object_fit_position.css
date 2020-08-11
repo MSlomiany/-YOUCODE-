@@ -1,0 +1,11 @@
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    /*
+    cover - wypełnia całość
+    contain - zachowuje proporcje
+    */
+    border: 1px solid black;
+    object-position: center;
+}

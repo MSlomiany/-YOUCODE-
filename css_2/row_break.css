@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+button{
+    /*powoduje brak łamania wiesza*/
+    white-space: nowrap;
+    /*zachowuje białe znaki np. kilka spacji*/
+    white-space: pre;
+}
+
+p{
+    /*aby zbyt długie słowa nie wychodziły poza kontener*/
+    width: 200px;
+    border: 1px solid black;
+    overflow-wrap: break-word;
+}
